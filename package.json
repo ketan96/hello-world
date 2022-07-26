@@ -1,0 +1,46 @@
+{
+  "name": "hellow-world",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "startDev": "nodemon app.js",
+    "lint": "standard --fix"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1092.0",
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.0",
+    "express": "~4.16.1",
+    "http-status": "^1.5.0",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.2.6",
+    "morgan": "~1.9.1",
+    "params": "^0.1.1",
+    "selecttransform": "^1.6.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "nodemon": "^2.0.15",
+    "standard": "^16.0.4"
+  },
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ketan96/yolo-cosmos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ketan96/yolo-cosmos/issues"
+  },
+  "homepage": "https://github.com/ketan96/yolo-cosmos#readme"
+}
